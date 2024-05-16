@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --watch-path=./src src/index.js"
+  },
+  "dependencies": {
+    "@docknetwork/crypto-wasm-ts": "^0.59.0",
+    "@polkadot/util-crypto": "^12.6.2",
+    "@redis/client": "^1.5.14",
+    "@ws-rpc/encoder-msgpack": "^0.0.1",
+    "@ws-rpc/server": "^0.0.24",
+    "argon2": "^0.40.1",
+    "banditypes": "^0.2.5",
+    "~": "link:./src"
+  },
+  "packageManager": "yarn@4.2.2"
+}

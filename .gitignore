@@ -1,0 +1,11 @@
+# editors
+.idea/
+*.iml
+
+# node
+.yarn/*
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/patches/
+.pnp.*
+node_modules/
